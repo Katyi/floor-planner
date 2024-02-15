@@ -1,0 +1,27 @@
+.DesignItemsList {
+  width: 200px;
+  /* height: calc((90vh - 2px - 40px - 56px - 60px) / 2); */
+  height: calc((90vh - 2px - 40px - 56px - 41px - 20px)/2);
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px 10px 5px 10px;
+  overflow: scroll;
+}
+.DesignItemsList ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.DesignItemsList li {
+  cursor: pointer;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: 0.5px solid #ccc;
+  margin-bottom: 5px;
+}
+.DesignItemsList img {
+  width: 30px;
+  height: 30px;
+}

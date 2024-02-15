@@ -1,0 +1,16 @@
+export const exampleObjects = [
+  { id: 1, image: require("../assets/table.svg"), name: "Table" },
+  { id: 2, image: require("../assets/chair.svg"), name: "Chair" },
+  { id: 3, image: require("../assets/bed.svg"), name: "Bed" },
+  { id: 4, image: require("../assets/bed1.svg"), name: "Bed1" },
+  { id: 5, image: require("../assets/sofa.svg"), name: "Sofa" },
+  { id: 6, image: require("../assets/sofa1.svg"), name: "Sofa1" },
+  { id: 7, image: require("../assets/hob.svg"), name: "Hob" },
+  { id: 8, image: require("../assets/hob1.svg"), name: "Hob1" },
+  { id: 9, image: require("../assets/armchair.svg"), name: "Armchair" },
+  { id: 10, image: require("../assets/armchair1.svg"), name: "Armchair1" },
+  { id: 11, image: require("../assets/bath.svg"), name: "Bath" },
+  { id: 12, image: require("../assets/desk.svg"), name: "Desk" },
+  { id: 13, image: require("../assets/jacuzzi.svg"), name: "Jacuzzi" },
+  { id: 14, image: require("../assets/office-chair.svg"), name: "Office-chair" },
+];

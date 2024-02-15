@@ -1,0 +1,13 @@
+.board {
+  width: calc(100vw - 40px - 250px);
+  height: calc(90vh - 2px - 40px - 56px);
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  background-color: #ddd;
+}
+.board img {
+  position: absolute;
+  cursor: grab;
+  height: 100px;
+}

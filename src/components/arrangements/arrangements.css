@@ -1,0 +1,61 @@
+.Arrangements {
+  width: 200px;
+  /* height: calc((90vh - 2px - 40px - 56px - 60px) / 2); */
+  height: calc((90vh - 2px - 40px - 56px - 41px - 20px)/2);
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  overflow: scroll;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* Saved arrangements list styles */
+.Arrangements ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.Arrangements li {
+/* .ArrangementsLi { */
+  width: 178px;
+  height: 30px;
+  padding: 5px 10px;
+  /* cursor: pointer; */
+  border: 1px solid #ccc;
+  margin-bottom: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 5px;
+}
+.Arrangements li:hover {
+  background: #ccc;
+  border: 1px solid #333;
+}
+.Arrangements li:visited {
+  background: #ccc;
+  border: 1px solid #333;
+}
+
+.BigBtn, .smallBtn {
+  width: 198px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ddd;
+  color: #333;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.smallBtn {
+  width: 20px;
+  padding: 5px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
